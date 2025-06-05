@@ -8,7 +8,7 @@ Este repositório contém um Jupyter Notebook que demonstra um pipeline completo
    - Cálculo do ângulo médio e rotação da imagem para “alinhar” a placa  
 
 2. **Segmentação (Crop) da Placa**  
-   - Conversão para tons de cinza, blur e binarização (thresholding)  
+   - Conversão para tons de cinza, blur(Filtro Gaussiano) e binarização (thresholding)  
    - Extração de contornos (`findContours`)  
    - Filtragem de retângulos pelo aspect‐ratio, área e posição para isolar a placa  
    - Corte (`crop`) da região correspondente à placa  
